@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OscarPenafiel-examen</string>
+    <string name="img_logo">Logo</string>
+    <string name="edt_Usuario">USUARIO</string>
+    <string name="edt_Contrasena">CONTRASEÑA</string>
+    <string name="btn_Iniciar">INICIAR SESION</string>
+
+
+
+    <string name="edt_Nombre">NOMBRE</string>
+    <string name="edt_MontoInicial">MONTO INICIAL</string>
+    <string name="edt_PagoMensual">PAGO MENSUAL</string>
+    <string name="btn_Guardar">GUARDAR</string>
+
+
+    <string name="txt_TituloEncuesta">ENCUESTA</string>
+
+    <string name="txt_pregunaUno">1.-¿Por qué eligió este centro educativo?</string>
+    <string name="edt_preguntauno">Escriba su respuesta</string>
+
+    <string name="txt_pregunaDos">2.-¿Que deporte practica?</string>
+    <string name="chb_futbol">Futbol</string>
+    <string name="chb_basket">Basket</string>
+    <string name="chb_tenis">Tenis</string>
+
+
+    <string name="txt_prguntaTres">3.-¿ Está interesado en aprender otro idioma aparte de inglés?</string>
+    <string name="rbt_si">SI</string>
+    <string name="rbt_no">NO</string>
+
+    <string name="bnt_EnviarEncuesta"> ENVIAR ENCUESTA</string>
+
+    <string name="txt_TituloResumen">RESUMEN</string>
+    <string name="txt_TituloNombre">OSCAR PEÑAFIEL</string>
+
+</resources>

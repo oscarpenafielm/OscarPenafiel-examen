@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry"
+
+    tools:context=".Encuesta">
+
+
+    <TextView
+        android:id="@+id/idUsuarioEncuesta"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="90dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="90dp"
+        android:paddingTop="1dp"
+        android:text=""
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#05155a"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="90dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="90dp"
+        android:paddingTop="1dp"
+        android:text="@string/txt_TituloEncuesta"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#05155a"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_pregunaUno"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="40dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="1dp"
+        android:textColor="#05155a"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPregUno"
+        android:hint="@string/edt_preguntauno"
+        tools:targetApi="o"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#566BE7"
+        android:textColor="#263692"
+        android:inputType="text"
+        android:autofillHints="" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_pregunaDos"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="1dp"
+        android:textColor="#05155a"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbFut"
+
+        tools:targetApi="o"
+        android:buttonTint="@color/colorBotton"
+        android:text="@string/chb_futbol"
+        android:layout_marginTop="1dp"
+
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbBas"
+        android:text="@string/chb_basket"
+        tools:targetApi="o"
+        android:layout_marginTop="1dp"
+        android:buttonTint="@color/colorBotton"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbTen"
+        android:text="@string/chb_tenis"
+        tools:targetApi="o"
+        android:layout_marginTop="1dp"
+        android:buttonTint="@color/colorBotton"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_prguntaTres"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="1dp"
+        android:textColor="#05155a"
+        />
+    <RadioGroup
+        android:id="@+id/idRadioG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="1dp"
+        android:paddingStart="20dp"
+
+
+
+        >
+        <RadioButton
+            android:id="@+id/rbtSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorBotton"
+            tools:targetApi="o"
+            android:text="@string/rbt_si"/>
+        <RadioButton
+            android:id="@+id/rbtNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorBotton"
+            tools:targetApi="o"
+            android:text="@string/rbt_no" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorBotton"
+        android:text="@string/bnt_EnviarEncuesta"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+
+
+</LinearLayout>

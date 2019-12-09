@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Resumen">
+
+    <LinearLayout
+        android:id="@+id/Lineare"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_TituloResumen"
+            android:paddingTop="5dp"
+            android:textSize="30sp"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/inmersoft"
+            android:contentDescription="@string/img_logo"
+            android:paddingTop="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/idRusuario"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+
+
+        <TextView
+            android:id="@+id/idRnombre"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/txt_TituloNombre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+
+        <TextView
+            android:id="@+id/idPregunta1"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+
+
+
+        <TextView
+            android:id="@+id/idPregunta2fut"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+
+
+        <TextView
+            android:id="@+id/idPregunta2bas"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+        <TextView
+            android:id="@+id/idPregunta2ten"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+
+        <TextView
+            android:id="@+id/idPregunta3si"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+
+        <TextView
+            android:id="@+id/idPregunta3no"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#05155a"/>
+    </LinearLayout>
+
+</RelativeLayout>
